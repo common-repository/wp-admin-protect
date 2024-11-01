@@ -1,0 +1,53 @@
+/* Variables */
+$primary: #B0B825; 
+$secondary: #1C1F26;
+
+/* Effects */
+.transition {	
+	-webkit-transition:	all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+}
+
+.wpap-header {
+	background-color: $secondary;
+	padding:10px;
+	color: $primary;
+	margin-top: 5%;
+	border-radius: 8px 8px 0 0;
+}
+.wpap-header h1 {
+	color: #fff !important;
+}
+
+.wpap-body {
+	background-color: #FFF !important;
+	padding: 20px 10px;
+	margin-bottom: 0 !important;
+}
+
+.about {
+	text-align:center;
+}
+
+.wpap-footer {
+	margin-top: 0 !important;
+	background-color: $secondary;
+	padding:10px;
+	color: $primary;
+	margin-top: 5%;
+	border-radius: 0 0 8px 8px;
+}
+
+.url-panel {
+	background-color: $secondary;
+	color: $primary;
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 8px;
+}
+
+.wpap-item h4 {
+	margin-bottom: -10px;
+}

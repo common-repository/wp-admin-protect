@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Admin Protect\n"
+"POT-Creation-Date: 2017-03-20 10:58-0300\n"
+"PO-Revision-Date: 2017-03-20 11:01-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: templates/settings.php:29 templates/settings.php:31
+msgid "Now your WP Admin URL is:"
+msgstr ""
+
+#: templates/settings.php:37
+msgid ""
+"Thank you for using the Seven Theme Studio plugins. If you have any doubts "
+"remmember that <a href=\"https://marcelloruoppolo.me/\" target=\"_Blank"
+"\">we are here to help you :)"
+msgstr ""
+
+#: wp-admin-protect.php:60
+msgid ""
+"Use the options below to configure your plugin. If you need help, please "
+"checkout <a href=\"#\" target=\"_Blank\">plugin documentation</a>"
+msgstr ""
+
+#: wp-admin-protect.php:64
+msgid "Enable Protection"
+msgstr ""
+
+#: wp-admin-protect.php:66
+msgid "Redirect URL"
+msgstr ""
+
+#: wp-admin-protect.php:67
+msgid "Term you want to use on your URL"
+msgstr ""
+
+#: wp-admin-protect.php:78 wp-admin-protect.php:80
+msgid "Insert the URL here"
+msgstr ""
+
+#: wp-admin-protect.php:82
+msgid "URL you want to redirect the user that tries to access your WP Admin"
+msgstr ""
+
+#: wp-admin-protect.php:87 wp-admin-protect.php:89
+msgid "Insert the term here"
+msgstr ""
+
+#: wp-admin-protect.php:91
+msgid ""
+"The term you want to insert on your url to access WP Admin. The URL must "
+"this term to access WP Admin"
+msgstr ""
+
+#: wp-admin-protect.php:101
+msgid "Check if you want to enable your protection"
+msgstr ""
+
+#: wp-admin-protect.php:110
+msgid "Check if you want to enable the minute protection"
+msgstr ""

@@ -1,0 +1,231 @@
+// SIMPLE GRID - SASS/SCSS
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Roboto);
+
+// fonts
+$font-family: 'Open Sans', sans-serif;
+$font-titles: 'Roboto', sans-serif;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-heavy: 700;
+$font-height: 1.5;
+
+// colors
+$dark-grey: #333447;
+$dark-gray: #333447; // for the Americans
+$primary_color: #B0B825; 
+$secondary_color: #1C1F26;
+$social_links_color: #fff;
+$social_hover_color: #B0B825;
+
+/* Effects */
+.transition { 
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+
+// html elments modified
+#mrwrapper ul.list-unstyled {
+  list-style-type: none;
+}
+#mrwrapper ul.social-links li {
+  float: right;
+}
+
+#mrwrapper ul.social-links li a {
+  color: $social_links_color;
+  font-size: 25px;
+  padding: 5px 10px;
+  display: block;
+  text-decoration: none;
+  @extend .transition
+}
+#mrwrapper ul.social-links li a:hover {
+  color: $dark_gray;
+  background-color: $social_links_color;
+}
+#mrwrapper img.responsive {
+  width: 100%;
+  height: auto;
+}
+#mrwrapper img.sts-brand {
+  width: 125px;
+  height: 115px;
+  margin: 0 auto;
+}
+
+
+
+// typography
+#mrwrapper h1, #mrwrapper h2, #mrwrapper h3, #mrwrapper h4, #mrwrapper h5, #mrwrapper h6 {
+  color: $secondary_color;
+  font-family: $font-titles;
+}
+#mrwrapper h1 {
+  font-size: 2.5rem;
+}
+
+#mrwrapper h2 {
+  font-size: 2rem;
+}
+
+#mrwrapper h3 {
+  font-size: 1.375rem;
+}
+
+#mrwrapper h4 {
+  font-size: 1.125rem;
+}
+
+#mrwrapper h5 {
+  font-size: 1rem;
+}
+
+#mrwrapper h6 {
+  font-size: 0.875rem;
+}
+
+#mrwrapper p {
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 1.8;
+}
+
+#mrwrapper th {
+  //font-size: 1.125rem;
+  font-weight: 200;
+  line-height: 1.8;
+}
+
+#mrwrapper label {
+  //font-size: 1.125rem;
+  font-weight: 200;
+  line-height: 1.8;
+}
+
+#mrwrapper .font-light {
+  font-weight: $font-weight-light;
+}
+
+#mrwrapper .font-regular {
+  font-weight: $font-weight-regular;
+}
+
+#mrwrapper .font-heavy {
+  font-weight: $font-weight-heavy;
+}
+
+#mrwrapper .text-center {
+  text-align: center !important;
+}
+// utility
+
+#mrwrapper .left {
+  text-align: left;
+}
+
+#mrwrapper .right {
+  text-align: right;
+}
+
+#mrwrapper .center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mrwrapper .justify {
+  text-align: justify;
+}
+
+#mrwrapper .hidden-sm {
+  display: none;
+}
+
+// grid
+
+$width: 96%;
+$gutter: 4%;
+$breakpoint-small: 33.75em; // 540px
+$breakpoint-med: 45em; // 720px
+$breakpoint-large: 60em; // 960px
+
+#mrwrapper .container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media only screen and (min-width: $breakpoint-small) {
+    width: 80%;
+  }
+
+  @media only screen and (min-width: $breakpoint-large) {
+    width: 75%;
+    max-width: 60rem;
+  }
+}
+
+#mrwrapper .row {
+  position: relative;
+  width: 100%;
+}
+
+#mrwrapper .row [class^="col"] {
+  float: left;
+  margin: 0.5rem 2%;
+  min-height: 0.125rem;
+}
+
+#mrwrapper .row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#mrwrapper .col-1,
+#mrwrapper .col-2,
+#mrwrapper .col-3,
+#mrwrapper .col-4,
+#mrwrapper .col-5,
+#mrwrapper .col-6,
+#mrwrapper .col-7,
+#mrwrapper .col-8,
+#mrwrapper .col-9,
+#mrwrapper .col-10,
+#mrwrapper .col-11,
+#mrwrapper .col-12 {
+  width: $width;
+}
+
+#mrwrapper .col-1-sm { width:($width / 12) - ($gutter * 11 / 12); }
+#mrwrapper .col-2-sm { width: ($width / 6) - ($gutter * 10 / 12); }
+#mrwrapper .col-3-sm { width: ($width / 4) - ($gutter * 9 / 12); }
+#mrwrapper .col-4-sm { width: ($width / 3) - ($gutter * 8 / 12); }
+#mrwrapper .col-5-sm { width: ($width / (12 / 5)) - ($gutter * 7 / 12); }
+#mrwrapper .col-6-sm { width: ($width / 2) - ($gutter * 6 / 12); }
+#mrwrapper .col-7-sm { width: ($width / (12 / 7)) - ($gutter * 5 / 12); }
+#mrwrapper .col-8-sm { width: ($width / (12 / 8)) - ($gutter * 4 / 12); }
+#mrwrapper .col-9-sm { width: ($width / (12 / 9)) - ($gutter * 3 / 12); }
+#mrwrapper .col-10-sm { width: ($width / (12 / 10)) - ($gutter * 2 / 12); }
+#mrwrapper .col-11-sm { width: ($width / (12 / 11)) - ($gutter * 1 / 12); }
+#mrwrapper .col-12-sm { width: $width; }
+
+@media only screen and (min-width: $breakpoint-med) {
+  #mrwrapper .col-1 { width:($width / 12) - ($gutter * 11 / 12); }
+  #mrwrapper .col-2 { width: ($width / 6) - ($gutter * 10 / 12); }
+  #mrwrapper .col-3 { width: ($width / 4) - ($gutter * 9 / 12); }
+  #mrwrapper .col-4 { width: ($width / 3) - ($gutter * 8 / 12); }
+  #mrwrapper .col-5 { width: ($width / (12 / 5)) - ($gutter * 7 / 12); }
+  #mrwrapper .col-6 { width: ($width / 2) - ($gutter * 6 / 12); }
+  #mrwrapper .col-7 { width: ($width / (12 / 7)) - ($gutter * 5 / 12); }
+  #mrwrapper .col-8 { width: ($width / (12 / 8)) - ($gutter * 4 / 12); }
+  #mrwrapper .col-9 { width: ($width / (12 / 9)) - ($gutter * 3 / 12); }
+  #mrwrapper .col-10 { width: ($width / (12 / 10)) - ($gutter * 2 / 12); }
+  #mrwrapper .col-11 { width: ($width / (12 / 11)) - ($gutter * 1 / 12); }
+  #mrwrapper .col-12 { width: $width; }
+
+  #mrwrapper .hidden-sm {
+    display: block;
+  }
+}

@@ -1,0 +1,215 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Roboto);
+/* Effects */
+.transition, #mrwrapper ul.social-links li a {
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  transition: all 0.4s linear; }
+
+#mrwrapper ul.list-unstyled {
+  list-style-type: none; }
+
+#mrwrapper ul.social-links li {
+  float: right; }
+
+#mrwrapper ul.social-links li a {
+  color: #fff;
+  font-size: 25px;
+  padding: 5px 10px;
+  display: block;
+  text-decoration: none; }
+
+#mrwrapper ul.social-links li a:hover {
+  color: #333447;
+  background-color: #fff; }
+
+#mrwrapper img.responsive {
+  width: 100%;
+  height: auto; }
+
+#mrwrapper img.sts-brand {
+  width: 125px;
+  height: 115px;
+  margin: 0 auto; }
+
+#mrwrapper h1, #mrwrapper h2, #mrwrapper h3, #mrwrapper h4, #mrwrapper h5, #mrwrapper h6 {
+  color: #1C1F26;
+  font-family: "Roboto", sans-serif; }
+
+#mrwrapper h1 {
+  font-size: 2.5rem; }
+
+#mrwrapper h2 {
+  font-size: 2rem; }
+
+#mrwrapper h3 {
+  font-size: 1.375rem; }
+
+#mrwrapper h4 {
+  font-size: 1.125rem; }
+
+#mrwrapper h5 {
+  font-size: 1rem; }
+
+#mrwrapper h6 {
+  font-size: 0.875rem; }
+
+#mrwrapper p {
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 1.8; }
+
+#mrwrapper th {
+  font-weight: 200;
+  line-height: 1.8; }
+
+#mrwrapper label {
+  font-weight: 200;
+  line-height: 1.8; }
+
+#mrwrapper .font-light {
+  font-weight: 300; }
+
+#mrwrapper .font-regular {
+  font-weight: 400; }
+
+#mrwrapper .font-heavy {
+  font-weight: 700; }
+
+#mrwrapper .text-center {
+  text-align: center !important; }
+
+#mrwrapper .left {
+  text-align: left; }
+
+#mrwrapper .right {
+  text-align: right; }
+
+#mrwrapper .center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
+
+#mrwrapper .justify {
+  text-align: justify; }
+
+#mrwrapper .hidden-sm {
+  display: none; }
+
+#mrwrapper .container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto; }
+  @media only screen and (min-width: 33.75em) {
+    #mrwrapper .container {
+      width: 80%; } }
+  @media only screen and (min-width: 60em) {
+    #mrwrapper .container {
+      width: 75%;
+      max-width: 60rem; } }
+
+#mrwrapper .row {
+  position: relative;
+  width: 100%; }
+
+#mrwrapper .row [class^="col"] {
+  float: left;
+  margin: 0.5rem 2%;
+  min-height: 0.125rem; }
+
+#mrwrapper .row::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+#mrwrapper .col-1,
+#mrwrapper .col-2,
+#mrwrapper .col-3,
+#mrwrapper .col-4,
+#mrwrapper .col-5,
+#mrwrapper .col-6,
+#mrwrapper .col-7,
+#mrwrapper .col-8,
+#mrwrapper .col-9,
+#mrwrapper .col-10,
+#mrwrapper .col-11,
+#mrwrapper .col-12 {
+  width: 96%; }
+
+#mrwrapper .col-1-sm {
+  width: 4.3333333333%; }
+
+#mrwrapper .col-2-sm {
+  width: 12.6666666667%; }
+
+#mrwrapper .col-3-sm {
+  width: 21%; }
+
+#mrwrapper .col-4-sm {
+  width: 29.3333333333%; }
+
+#mrwrapper .col-5-sm {
+  width: 37.6666666667%; }
+
+#mrwrapper .col-6-sm {
+  width: 46%; }
+
+#mrwrapper .col-7-sm {
+  width: 54.3333333333%; }
+
+#mrwrapper .col-8-sm {
+  width: 62.6666666667%; }
+
+#mrwrapper .col-9-sm {
+  width: 71%; }
+
+#mrwrapper .col-10-sm {
+  width: 79.3333333333%; }
+
+#mrwrapper .col-11-sm {
+  width: 87.6666666667%; }
+
+#mrwrapper .col-12-sm {
+  width: 96%; }
+
+@media only screen and (min-width: 45em) {
+  #mrwrapper .col-1 {
+    width: 4.3333333333%; }
+
+  #mrwrapper .col-2 {
+    width: 12.6666666667%; }
+
+  #mrwrapper .col-3 {
+    width: 21%; }
+
+  #mrwrapper .col-4 {
+    width: 29.3333333333%; }
+
+  #mrwrapper .col-5 {
+    width: 37.6666666667%; }
+
+  #mrwrapper .col-6 {
+    width: 46%; }
+
+  #mrwrapper .col-7 {
+    width: 54.3333333333%; }
+
+  #mrwrapper .col-8 {
+    width: 62.6666666667%; }
+
+  #mrwrapper .col-9 {
+    width: 71%; }
+
+  #mrwrapper .col-10 {
+    width: 79.3333333333%; }
+
+  #mrwrapper .col-11 {
+    width: 87.6666666667%; }
+
+  #mrwrapper .col-12 {
+    width: 96%; }
+
+  #mrwrapper .hidden-sm {
+    display: block; } }
+
+/*# sourceMappingURL=simple-grid.css.map */
